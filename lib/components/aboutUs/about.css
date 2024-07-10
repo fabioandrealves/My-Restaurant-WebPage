@@ -1,0 +1,82 @@
+/* Reset e estilos gerais */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8; /* Alterei para uma cor neutra */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+/* Estilos da seção Sobre Nós */
+.section-title {
+  font-size: 2em; /* Reduzi o tamanho da fonte para se adequar melhor ao conteúdo */
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.section-text {
+  font-size: 1em; /* Ajustei o tamanho da fonte */
+  text-align: center;
+  margin-bottom: 1.5em;
+  line-height: 1.5;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  background-color: #fff; /* Fundo branco para os membros da equipe */
+  padding: 1em;
+  margin: 0.5em;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px); /* Ajustei a transição para um efeito mais suave */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.team-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+  transition: transform 0.3s ease;
+}
+
+.team-photo:hover {
+  transform: scale(1.1); /* Aumentei o tamanho na interação com a imagem */
+}
+
+.team-name {
+  font-size: 1.2em;
+  color: #333; /* Cor mais escura para o nome da equipe */
+  margin-bottom: 0.3em;
+}
+
+.team-role {
+  font-size: 1em;
+  color: #666; /* Cor do texto mais suave */
+}
+
+/* Estilo para o iframe */
+iframe {
+  border: none;
+  width: 100%; /* Para garantir que ocupe toda a largura disponível */
+  height: 100px; /* Altura fixa para o footer, ajuste conforme necessário */
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+    <div class="cart">
+        <div class="cart-header">
+            <button id="back-button">
+                <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            <h3>Meu Carrinho</h3>
+        </div>
+        <div id="cart-items-container"></div>
+        <div class="cart-total">
+            <strong>Total: </strong>
+            <span>R$0,00</span>
+        </div>
+        <button id="purchase-button" class="purchase-button">Comprar</button>
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="header">
+        <button class="header-button-left" onclick="window.location.href='../ProductPage/Products.html'">Cadastrar Produto</button>
+        <h1>Menu</h1>
+        <a id="Carrinho" href="../carrinho_compras/cart.html" class="header-button-right">Carrinho</a>
+        <div class="header-button-right">
+            <button onclick="window.location.href='../../../index.html'">Voltar</button>
+        </div>
+    </div>
+
+    <div class="menu-category">
+        <h2>Pratos Principais</h2>
+        <div class="menu-row">
+            <div class="menu-item">
+                <img src="../../../assets/images/menu/frango_grelhado.png" alt="Prato 1">
+                <div>
+                    <h3>Frango Grelhado</h3>
+                    <p>Acompanha arroz, feijão e salada.</p>
+                    <span class="price">R$ 25,00</span>
+                    <button class="add-to-cart" data-product="Frango Grelhado" data-price="25,00">Adicionar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-category">
+        <h2>Lanches</h2>
+        <div class="menu-row">
+            <div class="menu-item">
+                <img src="../../../assets/images/menu/hamburguer_salada_maionese.jpeg" alt="Lanche 1">
+                <div>
+                    <h3>Hambúrguer</h3>
+                    <p>Carne, queijo, alface, tomate e maionese.</p>
+                    <span class="price">R$ 15,00</span>
+                    <button class="add-to-cart" data-product="Hambúrguer" data-price="15,00">Adicionar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-category">
+        <h2>Bebidas</h2>
+        <div class="menu-row">
+            <div class="menu-item">
+                <img src="../../../assets/images/menu/suco_laranja.png" alt="Bebida 1">
+                <div>
+                    <h3>Suco de Laranja</h3>
+                    <p>Natural e refrescante.</p>
+                    <span class="price">R$ 7,00</span>
+                    <button class="add-to-cart" data-product="Suco de Laranja" data-price="7,00">Adicionar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+</html>
